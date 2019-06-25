@@ -1,4 +1,6 @@
 import argparse
+from scipy.misc import imread
+import numpy as np
 import tensorflow.keras as keras
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.models import Sequential
@@ -88,3 +90,8 @@ if __name__ == '__main__':
         model.compile(loss=keras.losses.categorical_crossentropy,
                       optimizer=keras.optimizers.Adadelta(),
                       metrics=['accuracy'])
+
+        img = imread(args.predict)
+        img = img.reshape((1, img_rows, img_cols, 1))
+        pred = model.predict(img, batch_size=1)
+        print("Predicted: ", np.argmax(pred))
