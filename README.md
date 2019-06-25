@@ -15,12 +15,12 @@ This repository contains:
 
 So far, two functionalities has been implemented:
 ```
-python main.py train [path_to_training_examples]
+python main.py --train
 ```
 
 Will launch a training and overwrite weights.h5
 ```
-python main.py predict [path_to_image]
+python main.py --predict [path_to_image]
 ```
 
 Will launch a prediction on a single image.
