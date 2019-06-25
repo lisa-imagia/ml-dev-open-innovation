@@ -6,7 +6,7 @@ Moreover, the code is not integrated in any part of Imagia’s pipeline.
 The goal of this exercise is to bring this code a step closer to industrial production by integrating it into a service.
 
 ## Starting Point
-The model delivered by the research lab is a simple CNN with two convolutions. It was trained using
+The model delivered by the research lab is a simple CNN with two convolutions. It was trained using the `tensorflow.keras` framework.
 
 This repository contains:
 
