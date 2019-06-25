@@ -36,7 +36,6 @@ For this challenge, you will have to integrate this code into a **very light** R
 
 We ask you to meet the following requirements:
 * Python >= 3.x
-* RESTful API using Flask
 * Documentation (technical and readme to launch the service)
 * We should be able to run and test the implemented solution
 * **Optional:** build a docker image for easier deployment
