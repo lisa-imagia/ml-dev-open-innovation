@@ -23,11 +23,11 @@ Will launch a training and overwrite weights.h5
 python main.py --predict [path_to_image]
 ```
 
-Will launch a prediction on a single image.
+Will launch a prediction on a single image (for example `python --predict example/8.png` should output `Predicted: 8`).
 
 ## Requirements
 
-You are asked to integrate this code into a **very light** RESTful service which can handle the following requests:
+For this challenge, you will have to integrate this code into a **very light** RESTful service which can handle the following requests:
 
 | Request Method | Resource | Request Header | Request Body  | Response Body | Response Status Code |
 | ------------- |:-------------:|:-------------:| -----:| -----:| -----:|
