@@ -38,5 +38,5 @@ We ask you to meet the following requirements:
 * Python >= 3.x
 * Documentation (technical and readme to launch the service)
 * We should be able to run and test the implemented solution
-* **Optional:** build a docker image for easier deployment
+* Build a docker image for easier deployment
 * **Optional:** if you have time / ideas, any functionality you think would add value to the service
