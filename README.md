@@ -31,8 +31,8 @@ For this challenge, you will have to integrate this code into a **very light** R
 
 | Request Method | Resource | Request Header | Request Body  | Response Body | Response Status Code |
 | ------------- |:-------------:|:-------------:| -----:| -----:| -----:|
-| `PUT` | http://url:port/train | for you to decide | None | `{accuracy: x}` | 200 for normally returned, 400 for error |
-| `POST`| http://url:port/predict | for you to decide | binary data to predict on. Format of file: `png` | `{prediction: x}` | 200 for normally returned, 400 for error |
+| TBD | http://IP:port/train | TBD | TBD | `{accuracy: x}` | TBD |
+| `POST` | http://IP:port/predict | TBD | binary data to predict on. Format of file: `png` | `{prediction: x}` | TBD |
 
 We ask you to meet the following requirements:
 * Python >= 3.x
