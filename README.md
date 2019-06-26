@@ -39,4 +39,9 @@ We ask you to meet the following requirements:
 * Documentation (technical and readme to launch the service)
 * We should be able to run and test the implemented solution
 * Build a docker image for easier deployment
-* **Optional:** if you have time / ideas, any functionality you think would add value to the service
+
+Questions:
+* Is there any functionality you think would add value to the service?
+* How would you scale this service?
+* How would you reduce inference time?
+* What would happen if we post a dog picture? Do you see any way to handle this situation?
