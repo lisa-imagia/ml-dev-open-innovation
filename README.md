@@ -3,7 +3,7 @@
 The Open Innovation team has developed in collaboration with a public research laboratory a new model to classify images from handwritten digits. The model, delivered in tensorflow.keras, seems to have good performances but the team needs to conduct more tests to confirm the results.
 Moreover, the code is not integrated in any part of Imagia’s pipeline.
 
-The goal of this exercise is to bring this code a step closer to industrial production by integrating it into a service.
+The goal of this exercise is to bring this code a step closer to industrial production by enhancing and integrating it into a service.
 
 ## Starting Point
 The model delivered by the research lab is a simple CNN with two convolutions. It was trained using the `tensorflow.keras` framework.
