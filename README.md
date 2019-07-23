@@ -28,9 +28,10 @@ Will launch a prediction on a single image (for example `python --predict exampl
 ## Requirements
 
 This challenge contains two parts. First, Imagia wishes to use tfrecords data instead of `mnist.load_data()` (line 29). This requires that you build a small pipeline providing multiple steps:
-* Process the 'data/mnist.npz' raw data to convert them to a `.tfrecord` format 
+* Optional: use `tfrecords`: 
+   * Process the 'data/mnist.npz' raw data to convert them to a `.tfrecord` format 
+   * Modify the `train()` function consequently
 * The data postprocessing and transformation should come with unit tests
-* Modify the `train()` function consequently
 * Feel free to modify the code structure as much as needed
 
 Second, you will have to integrate this modified code into a **very light** RESTful service which can handle the following requests:
